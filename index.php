@@ -8,8 +8,8 @@
 <body>
 
 <?php 
-include 'banner.php';
 include 'login.php';
+include 'banner.php';
 include 'nav.php'; 
 ?>
 
