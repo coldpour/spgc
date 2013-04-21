@@ -75,3 +75,9 @@ a.nav:hover {
 div.container {
     width:1024px;
 }
+
+div.stripe {
+    background-color:#b6d7a8;
+    background-image:url('images/banner.jpg');
+    background-repeat:repeat-x;
+}
