@@ -3,7 +3,7 @@ img.banner {
 }
 
 h1.banner {
-    font-size:5em;
+    font-size:4.8em;
     font-weight:lighter;
     font-family:serif;
     text-align:center;
@@ -13,19 +13,19 @@ h1.banner {
 
 .login {
     float:right;
-    width:16em;
+    width:18em;
     border:none;
 }
 
 .login input {
-    height:2.3em;
+    height:2.4em;
     margin-top:.5em;
 }
 
 .login input[type=email],
 .login input[type=password] {
     background:#b6d7a8;
-    padding:.5em;
+    padding:.6em;
 }
 
 .login input[type=submit] {
@@ -41,7 +41,11 @@ h1.banner {
 }
 
 div.slide {
-    width:800px;
+    width:740px;
+}
+
+img.slide {
+    width:740px;
 }
 
 div.nav {
@@ -68,6 +72,6 @@ a.nav:hover {
     margin-right:auto;
 }
 
-img.slide {
-    width:800px;
+div.container {
+    width:1024px;
 }

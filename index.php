@@ -6,15 +6,16 @@
 </head>
 
 <body>
+<div class="container center">
+  <?php 
+     include 'login.php';
+     include 'banner.php';
+     ?>
 
-<?php 
-include 'login.php';
-include 'banner.php';
-?>
-
-<div class="center slide">
-  <?php include 'nav.php';?>
-  <img class="slide" src="images/lady_slipper_USFWS.jpg" />
+  <div class="center slide">
+    <?php include 'nav.php';?>
+    <img class="slide" src="images/lady_slipper_USFWS.jpg" />
+  </div>
 </div>
 </body>
 </html>
