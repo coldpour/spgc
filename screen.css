@@ -21,7 +21,7 @@ h1.banner {
     margin-top:.5em;
 }
 
-.login input[type=text],
+.login input[type=email],
 .login input[type=password] {
     background:#b6d7a8;
     padding:.5em;
