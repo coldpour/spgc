@@ -10,14 +10,8 @@
   <?php 
      include 'login.php';
      include 'banner.php';
+     include 'slide.php';
      ?>
-
-  <div class="stripe">
-    <div class="center slide">
-      <?php include 'nav.php';?>
-      <img class="slide" src="images/lady_slipper_USFWS.jpg" />
-    </div>
-  </div>
 </div>
 </body>
 </html>
