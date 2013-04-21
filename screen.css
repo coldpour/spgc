@@ -8,6 +8,7 @@ h1.banner {
     font-family:serif;
     text-align:center;
     width:7em;
+    margin:0em;
 }
 
 .login {
@@ -37,4 +38,12 @@ h1.banner {
 
 .login input::-webkit-input-placeholder {
     color:black;
+}
+
+.nav {
+    font-size:1.2em;
+    margin:.3em;
+    text-decoration:none;
+    color:#274e13;
+    font-family:sans-serif;
 }
