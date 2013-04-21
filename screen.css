@@ -9,3 +9,32 @@ h1.banner {
     text-align:center;
     width:7em;
 }
+
+.login {
+    float:right;
+    width:16em;
+    border:none;
+}
+
+.login input {
+    height:2.3em;
+    margin-top:.5em;
+}
+
+.login input[type=text],
+.login input[type=password] {
+    background:#b6d7a8;
+    padding:.5em;
+}
+
+.login input[type=submit] {
+    float:right;
+    width:6em;
+    background:#274e13;
+    color:white;
+    font-weight:bold;
+}
+
+.login input::-webkit-input-placeholder {
+    color:black;
+}

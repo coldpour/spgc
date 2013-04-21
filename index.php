@@ -9,6 +9,7 @@
 
 <?php 
 include 'banner.php';
+include 'login.php';
 include 'nav.php'; 
 ?>
 
