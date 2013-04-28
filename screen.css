@@ -5,7 +5,7 @@ img.banner {
 h1.banner {
     font-size:4.8em;
     font-weight:lighter;
-    font-family:serif;
+    font-family:Times;
     text-align:center;
     width:7em;
     margin:0em;
@@ -41,11 +41,7 @@ h1.banner {
     color:black;
 }
 
-div.slide {
-    width:740px;
-}
-
-img.slide {
+.middle {
     width:740px;
 }
 
@@ -81,4 +77,28 @@ div.stripe {
     background-color:#b6d7a8;
     background-image:url('images/banner.jpg');
     background-repeat:repeat-x;
+    margin-bottom:1em;
+    border-bottom:.15em solid #666666;
+}
+
+.footer {
+    color:#274e13;
+}
+
+div.footer {
+    text-align:center;
+}
+
+div.foot-content {
+    margin-top:auto;
+    margin-bottom:auto;
+    width:33%;
+}
+
+#copyright {
+    float:left;
+}
+
+#credit {
+    float:right;
 }
