@@ -13,13 +13,17 @@ h1.banner {
 
 .login {
     float:right;
-    width:18em;
     border:none;
     margin-right:.5em;
 }
 
+form.login {
+    width:14em;
+}
+
 .login input {
     height:2.4em;
+    width:100%;
     margin-top:.5em;
 }
 
