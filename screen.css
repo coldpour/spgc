@@ -1,13 +1,14 @@
+div.banner {
+    height:12em;
+}
+
 img.banner {
     float:left;
 }
 
-div.banner {
-    font-size:5em;
-    font-family:Goudy Old Style,Georgia,Times,Serif;
-    text-align:center;
-    width:7.3em;
-    margin:0em;
+#bannerText {
+    width:28em;
+    margin-top:1em;
 }
 
 .login {
