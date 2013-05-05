@@ -25,7 +25,7 @@
              $_SESSION['LoginFailed'] = 1;
 	     $_SESSION['LoggedIn'] = 0;
          }
-         echo "<meta http-equiv='refresh' content='1;index.php' />";
+         echo "<meta http-equiv='refresh' content='.5;index.php' />";
      } else {
          include 'public.php';
      }
