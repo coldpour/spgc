@@ -1,3 +1,12 @@
+<?php include 'head.php';
+      if (!empty($_SESSION['LoggedIn'])) {
+          include 'logout.php';
+      } else {
+          echo "<meta http-equiv='refresh' content='0;index.php' />";
+      }
+      include 'banner.php';
+?>
+
 <div class="stripe">
   <div class="center slide middle">
     <div id="memberLinks">
@@ -13,3 +22,7 @@
     </div>
   </div>
 </div>
+
+<?php include 'footer.php';
+      include 'foot.php';
+?>

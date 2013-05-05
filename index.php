@@ -1,16 +1,7 @@
-<?php session_start(); ?>
-<html>
-<head>
-<title>SPGC</title>
-<link rel="stylesheet" href="screen.css" media="screen" />
-<link rel="stylesheet" href="handheld.css" media="handheld" />
-</head>
+<?php include 'head.php';
 
-<body>
-<div class="container center">
-  <?php 
      if (!empty($_SESSION['LoggedIn'])) {
-         include 'members.php';
+         echo "<meta http-equiv='refresh' content='0;directory.php' />";
      } elseif (!empty($_POST['password'])) {
          require 'passhash.php';
 
@@ -27,10 +18,11 @@
          }
          echo "<meta http-equiv='refresh' content='.5;index.php' />";
      } else {
-         include 'public.php';
+         include 'login.php';
+         include 'banner.php';
+         include 'slide.php';
+         include 'footer.php';
      }
-  ?>
-</div>
-</body>
-</html>
+
+include 'foot.php';
 
