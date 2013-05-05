@@ -14,7 +14,7 @@
      } elseif (!empty($_POST['password'])) {
          require 'passhash.php';
 
-         $file = fopen("testfile", "r") or exit("can't open file");
+         $file = fopen("passfile", "r") or exit("can't open file");
          $storedPassHash = fgets($file);
          fclose($file);
 
