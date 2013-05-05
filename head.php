@@ -13,4 +13,8 @@
 function loggedIn() {
     return !empty($_SESSION['LoggedIn']);
 }
+
+function redirect($page, $delay) {
+    echo "<meta http-equiv='refresh' content='".$delay.";".$page."' />";
+}
 ?>

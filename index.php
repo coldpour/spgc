@@ -1,7 +1,7 @@
 <?php include 'head.php';
 
      if (loggedIn()) {
-         echo "<meta http-equiv='refresh' content='0;directory.php' />";
+         redirect('directory.php', 0);
      } elseif (!empty($_POST['password'])) {
          require 'passhash.php';
 
@@ -16,7 +16,7 @@
              $_SESSION['LoginFailed'] = 1;
 	     $_SESSION['LoggedIn'] = 0;
          }
-         echo "<meta http-equiv='refresh' content='.5;index.php' />";
+         redirect('index.php', .5);
      } else {
          include 'login.php';
          include 'banner.php';
