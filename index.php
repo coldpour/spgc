@@ -1,6 +1,6 @@
 <?php include 'head.php';
 
-     if (!empty($_SESSION['LoggedIn'])) {
+     if (loggedIn()) {
          echo "<meta http-equiv='refresh' content='0;directory.php' />";
      } elseif (!empty($_POST['password'])) {
          require 'passhash.php';

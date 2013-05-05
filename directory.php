@@ -1,5 +1,5 @@
 <?php include 'head.php';
-      if (!empty($_SESSION['LoggedIn'])) {
+      if (loggedIn()) {
           include 'logout.php';
       } else {
           echo "<meta http-equiv='refresh' content='0;index.php' />";

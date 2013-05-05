@@ -8,3 +8,9 @@
 
 <body>
 <div class="container center">
+
+<?php 
+function loggedIn() {
+    return !empty($_SESSION['LoggedIn']);
+}
+?>
