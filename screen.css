@@ -88,6 +88,7 @@ div.container {
 }
 
 div.stripe {
+    padding-top:2em;
     background-color:#b6d7a8;
     background-image:url('images/banner.jpg');
     background-repeat:repeat-x;
@@ -95,8 +96,11 @@ div.stripe {
     border-bottom:.15em solid #666666;
 }
 
-img.slide {
-    margin-top:2em;
+div.slide {
+    height:493px;
+    background:white;
+    border:.15em solid #666666;
+    border-bottom:none;
 }
 
 .footer {
@@ -119,4 +123,15 @@ div.foot-content {
 
 #credit {
     float:right;
+}
+
+#memberLinks {
+    float:left;
+    height:100%;
+    padding-right:.5em;
+}
+
+#memberContent {
+    padding-left:.5em;
+    float:left;
 }

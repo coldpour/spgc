@@ -1,5 +1,5 @@
 <?php
      include 'logout.php';
      include 'banner.php';
-     include 'slide.php';
+     include 'directory.php';
      include 'footer.php';
