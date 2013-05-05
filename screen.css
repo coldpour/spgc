@@ -12,28 +12,32 @@ img.banner {
 }
 
 .login {
+    padding:.6em;
+    margin-top:.5em;
     float:right;
     border:none;
     margin-right:.5em;
 }
 
-form.login {
-    width:15em;
+span.login {
+    padding:0em;
+    color:red;
+    font-weight:bold;
+    font-size:1.3em;
 }
 
 .login input {
     height:2.5em;
-    width:100%;
-    margin-top:.5em;
+    width:80%;
 }
 
 .login input[type=email],
 .login input[type=password] {
     background:#b6d7a8;
-    padding:.6em;
 }
 
 .login input[type=submit] {
+    padding:0em;
     float:right;
     width:6em;
     background:#274e13;
@@ -42,7 +46,13 @@ form.login {
 }
 
 .login input::-webkit-input-placeholder {
-    color:black;
+    color:black;p
+}
+
+form.login {
+    padding:0em;
+    margin-top:0em;
+    width:15em;
 }
 
 .middle {
