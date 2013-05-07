@@ -10,6 +10,30 @@
 <div class="container center">
 
 <?php 
+
+function publicPage($name) {
+    if (loggedIn()) {
+        include 'logout.php';
+    } elseif (loginAttempted()) {
+        tryPassword('directory.php', $name);
+    } else {
+        showLogin($name);
+        include 'banner.php';
+    }
+}
+
+function memberPage() {
+    if (!loggedIn()) {
+        redirect('index.php', 0);
+    } else {
+        include 'logout.php';
+        include 'banner.php';
+    
+        echo "<div class='stripe'>";
+        echo "    <div class='center slide middle'>";
+    }
+}
+
 function loggedIn() {
     return !empty($_SESSION['LoggedIn']);
 }
@@ -22,7 +46,7 @@ function loginAttempted() {
     return !empty($_POST['password']);
 }
 
-function tryPassword() {
+function tryPassword($successPage, $failPage) {
     require 'passhash.php';
 
     $file = fopen("passfile", "r") or exit("can't open file");
@@ -32,11 +56,12 @@ function tryPassword() {
     if (PassHash::check_password($storedPassHash, $_POST['password'])) {  
        $_SESSION['LoggedIn'] = 1;
        $_SESSION['LoginFailed'] = 0;
+       redirect($successPage, 0);
     } else {  
        $_SESSION['LoginFailed'] = 1;
        $_SESSION['LoggedIn'] = 0;
+       redirect($failPage, .5);
     }
-    redirect('index.php', .5);
 }
 
 function showLogin($currentPage) {

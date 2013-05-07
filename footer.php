@@ -1,3 +1,6 @@
+  </div>
+</div>
+
 <div class="footer">
      <div class="middle center">
           <div id="copyright" class="foot-content">Copyright 2013</div>

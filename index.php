@@ -1,13 +1,6 @@
-<?php include 'head.php';
+<?php include 'head.php'; publicPage('index.php'); ?>
 
-if (loggedIn()) {
-    redirect('directory.php', 0);
-} elseif (loginAttempted()) {
-    tryPassword();
-} else {
-    showLogin('index.php');
-    include 'banner.php';
-    include 'slide.php';
-    include 'footer.php';
-}
+<img class="slide middle" src="images/dreamstime_ladyslippers/width/740.jpg" />
+
+<?php include 'footer.php'; ?>
 

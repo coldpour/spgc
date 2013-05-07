@@ -1,14 +1,5 @@
-<?php include 'head.php';
-      if (loggedIn()) {
-          include 'logout.php';
-      } else {
-          redirect('index.php', 0);
-      }
-      include 'banner.php';
-?>
+<?php include 'head.php'; memberPage(); ?>
 
-<div class="stripe">
-  <div class="center slide middle">
     <div id="memberLinks">
       <ul>
         <li><a href="directory.php">Directory</a></li>
@@ -20,7 +11,5 @@
       <h3>Susan Brust</h3>
       <p>some other info</p>
     </div>
-  </div>
-</div>
 
 <?php include 'footer.php'; ?>
