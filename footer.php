@@ -1,5 +1,4 @@
-  </div>
-</div>
+<?php Stripe::close(); ?>
 
 <div class="footer">
      <div class="middle center">

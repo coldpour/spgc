@@ -12,17 +12,14 @@
 <?php 
 
 function publicPage($name) {
-    if (loggedIn()) {
-        include 'logout.php';
-    } elseif (loginAttempted()) {
+    if (loginAttempted()) {
         tryPassword('directory.php', $name);
+    } elseif (loggedIn()) {
+        include 'logout.php';
     } else {
         showLogin($name);
-        include 'banner.php';
-
-        echo "<div class='stripe'>";
-        echo "    <div class='center slide middle'>";
     }
+    showCommonContent();
 }
 
 function memberPage() {
@@ -30,11 +27,15 @@ function memberPage() {
         redirect('index.php', 0);
     } else {
         include 'logout.php';
-        include 'banner.php';
-    
-        echo "<div class='stripe'>";
-        echo "    <div class='center slide middle'>";
     }
+    showCommonContent();
+}
+
+function showCommonContent() {
+    include 'banner.php';
+
+    require 'stripe.php';
+    Stripe::open();
 }
 
 function loggedIn() {
