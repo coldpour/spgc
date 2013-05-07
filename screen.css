@@ -57,6 +57,7 @@ form.login {
 
 .middle {
     width:740px;
+    background:white;
 }
 
 div.nav {
@@ -88,18 +89,11 @@ div.container {
 }
 
 div.stripe {
-    padding-top:2em;
     background-color:#b6d7a8;
     background-image:url('images/banner.jpg');
     background-repeat:repeat-x;
     margin-bottom:1em;
     border-bottom:.15em solid #666666;
-}
-
-div.slide {
-    background:white;
-    border:.15em solid #666666;
-    border-bottom:none;
 }
 
 .footer {
@@ -122,6 +116,11 @@ div.foot-content {
 
 #credit {
     float:right;
+}
+
+div.slide {
+    border:.15em solid #666666;
+    border-bottom:none;
 }
 
 #directory {

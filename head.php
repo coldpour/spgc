@@ -36,6 +36,8 @@ function showCommonContent() {
 
     require 'stripe.php';
     Stripe::open();
+    
+    include 'nav.php';
 }
 
 function loggedIn() {

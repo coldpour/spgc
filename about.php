@@ -1,6 +1,6 @@
 <?php include 'head.php'; publicPage('about.php'); ?>
 
-<div id="about">
+<div id="about" class="slide">
 <p>
 The Saint Paul Garden Club (SPGC) was founded in 1927 by 30 women, and was accepted into the Garden Club
 of America in 1933. Throughout its history, the SPGC has dedicated itself to urban beautification, conservation

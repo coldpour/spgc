@@ -4,7 +4,7 @@ class Stripe {
     
     public static function open() {
         echo "<div class='stripe'>";
-        echo "    <div class='center slide middle'>";
+        echo "    <div class='center middle'>";
     }
 
     public static function close() {
