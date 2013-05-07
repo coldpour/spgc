@@ -5,3 +5,7 @@
 	  <div id="credit" class="foot-content">Developed by Mike Holm</div>
      </div>
 </div>
+
+</div>
+</body>
+</html>
