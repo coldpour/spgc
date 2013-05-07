@@ -1,5 +1,6 @@
 <?php include 'head.php'; memberPage(); ?>
 
+<div id="directory">
     <div id="memberLinks">
       <ul>
         <li><a href="directory.php">Directory</a></li>
@@ -11,5 +12,6 @@
       <h3>Susan Brust</h3>
       <p>some other info</p>
     </div>
+</div>
 
 <?php include 'footer.php'; ?>

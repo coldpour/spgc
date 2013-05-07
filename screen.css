@@ -97,7 +97,6 @@ div.stripe {
 }
 
 div.slide {
-    height:493px;
     background:white;
     border:.15em solid #666666;
     border-bottom:none;
@@ -125,6 +124,10 @@ div.foot-content {
     float:right;
 }
 
+#directory {
+    height:493px;
+}
+
 #memberLinks {
     float:left;
     height:100%;
@@ -134,4 +137,11 @@ div.foot-content {
 #memberContent {
     padding-left:.5em;
     float:left;
+}
+
+#about {
+    padding-top:1em;
+    padding-bottom:1em;
+    padding-left:2em;
+    padding-right:2em;
 }
