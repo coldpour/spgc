@@ -19,6 +19,9 @@ function publicPage($name) {
     } else {
         showLogin($name);
         include 'banner.php';
+
+        echo "<div class='stripe'>";
+        echo "    <div class='center slide middle'>";
     }
 }
 
