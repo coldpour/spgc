@@ -38,4 +38,18 @@ function tryPassword() {
     }
     redirect('index.php', .5);
 }
+
+function showLogin($currentPage) {
+    echo "<form class='login' action=".$currentPage." method='post'>";
+    echo "    <input class='login' type='password' placeholder='password' name='password'>";
+
+    if (isset($_SESSION['LoginFailed'])) {
+        echo "<span class='login'>X</span>";
+    }
+
+    echo "    <input class='login' type='submit' value='Log In'>";
+    echo "</form>";
+}
+
 ?>
+
