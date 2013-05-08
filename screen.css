@@ -151,9 +151,11 @@ div.fixed-height {
 }
 
 ul.links {
+    margin:0em;
+    padding:0em;
+    padding-top:1em;
     list-style-type:none;
     font-size:1.2em;
-    padding:0em;
 }
 
 li.links {
