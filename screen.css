@@ -159,3 +159,20 @@ ul.links {
 li.links {
     margin:1em;
 }
+
+#projects {
+    padding:2em;
+}
+
+td {
+    padding-left:1em;
+    padding-right:1em;
+}
+
+td.amount {
+    text-align:right;
+}
+
+tr.total {
+    font-weight:bold;
+}
