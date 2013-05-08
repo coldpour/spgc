@@ -1,6 +1,6 @@
 <?php include 'head.php'; publicPage('projects.php'); ?>
 
-<div id='projects' class='slide'>
+<div id='projects' class='slide fixed-height'>
   <table class='projects center'>
     <tbody>
       <tr class='header'>
