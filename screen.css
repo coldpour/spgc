@@ -65,6 +65,7 @@ div.nav {
     text-align:right;
     padding-right:.4em;
     margin-bottom:.4em;
+    color:#274e13;
 }
 
 a.nav {
@@ -123,7 +124,7 @@ div.slide {
     border-bottom:none;
 }
 
-#directory {
+div.fixed-height {
     height:493px;
 }
 
@@ -143,4 +144,18 @@ div.slide {
     padding-bottom:1em;
     padding-left:2em;
     padding-right:2em;
+}
+
+#links {
+    text-align:center;
+}
+
+ul.links {
+    list-style-type:none;
+    font-size:1.2em;
+    padding:0em;
+}
+
+li.links {
+    margin:1em;
 }

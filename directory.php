@@ -1,6 +1,6 @@
 <?php include 'head.php'; memberPage(); ?>
 
-<div id="directory" class="slide">
+<div id="directory" class="slide fixed-height">
     <div id="memberLinks">
       <ul>
         <li><a href="directory.php">Directory</a></li>
