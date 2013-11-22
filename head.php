@@ -16,6 +16,8 @@ function publicPage($name) {
         tryPassword('directory.php', $name);
     } elseif (loggedIn()) {
         include 'logout.php';
+    } else {
+        showLogin($name);
     }
     showCommonContent();
 }
