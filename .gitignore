@@ -42,3 +42,5 @@
 # other
 *.iws
 
+# mac files
+.DS_Store
