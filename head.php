@@ -8,6 +8,7 @@
 
 <body>
 <div class="container center">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 
 <?php 
 

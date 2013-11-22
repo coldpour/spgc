@@ -1,6 +1,5 @@
 <?php include 'head.php'; publicPage('links.php'); ?>
 
-<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 <div id='links' class='slide fixed-height'>
   <ul class='links'>
 

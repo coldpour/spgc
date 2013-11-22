@@ -1,6 +1,5 @@
 <?php include 'head.php'; publicPage('about.php'); ?>
 
-<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 <div id="about" class="slide">
 <p>
 The Saint Paul Garden Club (SPGC) was founded in 1927 by 30 women, and was accepted into the Garden Club
