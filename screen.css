@@ -160,6 +160,12 @@ ul.links {
 
 li.links {
     margin:1em;
+    width: 40%;
+    float:left;
+}
+
+img.links {
+    width:3em;
 }
 
 table.projects {
