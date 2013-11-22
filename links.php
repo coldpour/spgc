@@ -1,5 +1,6 @@
 <?php include 'head.php'; publicPage('links.php'); ?>
 
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 <div id='links' class='slide fixed-height'>
   <ul class='links'>
 
@@ -11,6 +12,16 @@
 	       	     'text' => 'Minnesota State Horticultural Society'),
     	       array('url' => 'http://www.arboretum.umn.edu',
 	             'text' => 'Minnesota Landscape Arboretum'),
+    	       array('url' => 'http://www.saintpaulparksconservancy.org/',
+	             'text' => 'The Saint Paul Parks Conservancy'),
+    	       array('url' => 'http://www.gcamerica.org/what-we-do-NAL-Conservation.cfm',
+	             'text' => 'National Affairs & Legislation'),
+    	       array('url' => 'http://www.stpaul.gov/index.aspx?NID=1031',
+	             'text' => 'Blooming Saint Paul'),
+    	       array('url' => 'http://www.greatrivergreening.org/',
+	             'text' => 'Great River Greening'),
+    	       array('url' => 'http://www.childrensmn.org/blog/kidshealth/2013/05/a-green-thumb-with-a-healing-touch/',
+	             'text' => 'Children’s Hospital MN'),
 	     );
 
     for($i = 0; $i < count($sites); ++$i) {
