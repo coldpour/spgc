@@ -1,7 +1,6 @@
 <?php include 'head.php'; publicPage('links.php'); ?>
 
 <div id='links' class='slide'>
-  <ul class='links'>
 
   <?php 
     $sites = array(
@@ -32,15 +31,14 @@
 	     );
 
     for($i = 0; $i < count($sites); ++$i) {
-      echo "<li class='links'>";
-      echo "  <img class='links' src=".$sites[$i]['img'].">";
+      echo "<div class='link'>";
+      echo "  <img class='link' src=".$sites[$i]['img'].">";
       echo "  <br />";
       echo "  <a href=".$sites[$i]['url'].">".$sites[$i]['text']."</a>";
-      echo "</li>";
+      echo "</div>";
     }
   ?>
 
-  </ul>
 </div>
 
 <?php include 'footer.php' ?>

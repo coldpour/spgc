@@ -154,13 +154,13 @@ ul.links {
     font-size:1.2em;
 }
 
-li.links {
+div.link {
     text-align:center;
-    margin:1em;
+    padding:1em;
     width: 40%;
 }
 
-img.links {
+img.link {
     width:80%;
 }
 
