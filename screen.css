@@ -146,10 +146,6 @@ div.fixed-height {
     padding-right:2em;
 }
 
-#links {
-    text-align:center;
-}
-
 ul.links {
     margin:0em;
     padding:0em;
@@ -159,13 +155,13 @@ ul.links {
 }
 
 li.links {
+    text-align:center;
     margin:1em;
     width: 40%;
-    float:left;
 }
 
 img.links {
-    width:3em;
+    width:80%;
 }
 
 table.projects {

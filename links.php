@@ -1,6 +1,6 @@
 <?php include 'head.php'; publicPage('links.php'); ?>
 
-<div id='links' class='slide fixed-height'>
+<div id='links' class='slide'>
   <ul class='links'>
 
   <?php 
