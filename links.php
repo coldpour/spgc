@@ -1,7 +1,6 @@
 <?php include 'head.php'; publicPage('links.php'); ?>
 
 <div id='links' class='slide'>
-
   <?php 
     $sites = array(
     	       array('url' => 'http://gcamerica.org', 
@@ -38,7 +37,6 @@
       echo "</div>";
     }
   ?>
-
 </div>
 
 <?php include 'footer.php' ?>

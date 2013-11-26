@@ -1,14 +1,10 @@
-div.banner {
-    height:12em;
-}
-
 img.banner {
-    float:left;
+    position:relative;
 }
 
 #bannerText {
     width:28em;
-    margin-top:1em;
+    top:-76px;
 }
 
 .login {
@@ -64,7 +60,7 @@ div.nav {
     font-size:1.4em;
     text-align:right;
     padding-right:.4em;
-    margin-bottom:.4em;
+    padding-bottom:.4em;
     color:#274e13;
 }
 
@@ -95,6 +91,8 @@ div.stripe {
     background-repeat:repeat-x;
     margin-bottom:1em;
     border-bottom:.15em solid #666666;
+    position:relative;
+    top:-62px;
 }
 
 .footer {
