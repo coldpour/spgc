@@ -46,7 +46,7 @@ span.login {
 }
 
 .login input::-webkit-input-placeholder {
-    color:black;p
+    color:black;
 }
 
 form.login {
@@ -148,16 +148,22 @@ div.fixed-height {
     padding-right:2em;
 }
 
+#links {
+    padding:1em 3em 1em 3em;
+}
+
 div.link {
     text-align:center;
-    padding:1em;
     float: left;
-    width: 40%;
+    width: 50%;
+    padding-top: 1em;
+    padding-bottom: 1em;
 }
 
 img.link {
     width:80%;
     height: 216px;
+    border: 1px solid black;
 }
 
 table.projects {
