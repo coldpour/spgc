@@ -9,7 +9,7 @@
       </t>
   
       <tr class='project'>
-        <td>Children's Hospital</td>
+        <td>Children’s Hospital</td>
         <td class='amount'>$ 2,000.00</td>
       </tr>
   
