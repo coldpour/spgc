@@ -124,6 +124,7 @@ div.slide {
     border:.15em solid #666666;
     border-bottom:none;
     overflow:hidden;
+    font-size:18px;
 }
 
 div.fixed-height {
@@ -146,6 +147,7 @@ div.fixed-height {
     padding-bottom:1em;
     padding-left:2em;
     padding-right:2em;
+    font-size:18px;
 }
 
 #links {
