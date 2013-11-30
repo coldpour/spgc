@@ -172,13 +172,16 @@ img.link {
     border: 1px solid black;
 }
 
-table.projects {
-    padding:2em;
+#projects {
+    text-align:center;
 }
 
-td {
-    padding-left:1em;
-    padding-right:1em;
+ul.projects {
+    padding:0px;
+}
+
+li.project {
+    list-style:none;
 }
 
 td.amount {
