@@ -8,10 +8,10 @@ if (isset($_REQUEST['email']))
   $email = $_REQUEST['email'] ;
   $subject = "SPGC Book Order" ;
   $message = "Name: ".$_REQUEST['name'].
-  	     "Address: ".$_REQUEST['address1'].
-	     "City, State, Zip Code: ".$_REQUEST['address2'].
-	     "E-mail: ".$_REQUEST['email'].
-	     "Tel: ".$_REQUEST['tel'];
+  	     "\nAddress: ".$_REQUEST['address1'].
+	     "\nCity, State, Zip Code: ".$_REQUEST['address2'].
+	     "\nE-mail: ".$_REQUEST['email'].
+	     "\nTel: ".$_REQUEST['tel'];
   mail("mholm815@gmail.com", $subject,
   $message, "From:" . $email);
   echo "Thank you for using our mail form";
