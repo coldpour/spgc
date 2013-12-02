@@ -16,11 +16,7 @@ img.banner {
 }
 
 .login {
-    padding:.6em;
-    margin-top:.5em;
     float:right;
-    border:none;
-    margin-right:.5em;
 }
 
 span.login {
@@ -30,27 +26,58 @@ span.login {
     font-size:1.3em;
 }
 
-.login input {
+input {
+    padding:.6em;
+    margin-top:.25em;
+    margin-bottom:.25em;
+    border:none;
     height:2.5em;
+    width:60%;
+}
+
+#orderform {
+    width:25em;
+    margin-bottom:0em;
+}
+
+input.order {
+    width:29em;
+}
+
+div.order {
+    overflow:hidden;
+}
+
+login.input {
+    margin-right:.5em;
     width:80%;
 }
 
-.login input[type=email],
-.login input[type=password] {
+input[type=text],
+input[type=email],
+input[type=password] {
     background:#b6d7a8;
 }
 
-.login input[type=submit] {
-    padding:0em;
+login.input[type=submit] {
     float:right;
+}
+
+input[type=submit] {
+    padding:0em;
     width:6em;
     background:#274e13;
     color:white;
     font-weight:bold;
 }
 
-.login input::-webkit-input-placeholder {
+input::-webkit-input-placeholder {
     color:black;
+}
+
+input.order {
+    float:right;
+    clear:right;
 }
 
 form.login {
@@ -129,6 +156,7 @@ div.slide {
     border-bottom:none;
     overflow:hidden;
     font-size:18px;
+    padding:2em;
 }
 
 div.fixed-height {
