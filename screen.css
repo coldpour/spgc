@@ -55,6 +55,10 @@ input.order {
     width:29em;
 }
 
+#order {
+    padding-top:1em;
+}
+
 div.order {
     overflow:hidden;
 }
