@@ -15,7 +15,7 @@ function sendEmail() {
     	       "\nAddress: ".$_REQUEST['address1'].
 	       "\nCity, State, Zip Code: ".$_REQUEST['address2'].
 	       "\nE-mail: ".$_REQUEST['email'].
-	       "\nPhone: ".$_REQUEST['phone'];
+	       "\nPhone: ".$_REQUEST['phone'].
 	       "\nQty: ".$_REQUEST['qty'];
     mail("mholm815@gmail.com", $subject, $message, "From:" . $email);
 }
