@@ -1,7 +1,7 @@
 <?php include 'head.php'; publicPage('projects.php'); ?>
 
 <div id='projects' class='slide fixed-height'>
-  <h3>Donations 2013</h3>
+  <h3>2013 Beneficiaries</h3>
   <ul class='projects'>
   <?php 
     $orgs = array(
