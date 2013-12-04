@@ -31,7 +31,7 @@ function displayInfo() {
 function displayDetails() {
     echo "
         <p id=orderdetails' class='order center'>
-            Books are $68 each, including sales tax, plus an estimated $10 shipping and handling. To order your book today, please fill out the form below. We will reply to your email with the final amount owed and details of where to send a check.
+            Books are $68 each, including sales tax. To order your book today, please fill out the form below and you will be notified when books arrive. You may pick them up at a garden club member’s home or have them mailed to you for an additional $10 packaging and shipping. Please indicate your preference on the form. We will reply to your email with the final amount owed and details of where to send a check.
         </p>";
 }
 
@@ -59,7 +59,7 @@ function displayForm() {
                 Phone: <input class='order' type='tel' name='phone'>
             </div>
             <div class='order'>
-                Qantity:
+                Quantity:
                 <input id='orderqty' class='order' type='number' min='1' name='qty'>
                 <input class='order' type='submit' value='Submit'>
             </div>
