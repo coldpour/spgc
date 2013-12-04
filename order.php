@@ -16,7 +16,8 @@ function sendEmail() {
 	       "\nCity, State, Zip Code: ".$_REQUEST['address2'].
 	       "\nE-mail: ".$_REQUEST['email'].
 	       "\nPhone: ".$_REQUEST['phone'].
-	       "\nQty: ".$_REQUEST['qty'];
+	       "\nQty: ".$_REQUEST['qty'].
+	       "\nPreference: ".$_REQUEST['ship'];
     mail("mholm815@gmail.com", $subject, $message, "From:" . $email);
 }
 
@@ -44,6 +45,17 @@ function displayForm() {
     echo "
         <form id='orderform' class='center' method='post' action='order.php'>
             <div class='order'>
+                E-mail: <input class='order' type='email' name='email'>
+            </div>
+            <div class='order'>
+                Quantity: <input id='orderqty' class='order' type='number' min='1' name='qty'>
+            </div>
+	    <div class='order'>
+                Preference:
+		<span class='orderradio'><input class='order' type='radio' name='ship' value='ship'>Ship</span>
+		<span class='orderradio'><input class='order' type='radio' name='ship' value='pickup'>Pickup</span>
+	    </div>
+            <div class='order'>
                 Name: <input class='order' type='text' name='name'>
             </div>
             <div class='order'>
@@ -53,16 +65,11 @@ function displayForm() {
                 City, State, Zip: <input class='order' type='text' name='address2'>
             </div>
             <div class='order'>
-                E-mail: <input class='order' type='email' name='email'>
-            </div>
-            <div class='order'>
                 Phone: <input class='order' type='tel' name='phone'>
             </div>
-            <div class='order'>
-                Quantity:
-                <input id='orderqty' class='order' type='number' min='1' name='qty'>
-                <input class='order' type='submit' value='Submit'>
-            </div>
+	    <div class='order'>
+                <input id='ordersubmit' class='order' type='submit' value='Submit'>
+	    </div>
         </form>";
 }
 ?>

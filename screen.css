@@ -37,8 +37,6 @@ input {
     margin-top:.25em;
     margin-bottom:.25em;
     border:none;
-    height:2.5em;
-    width:60%;
 }
 
 #orderconf {
@@ -51,8 +49,22 @@ input {
     margin-bottom:0em;
 }
 
-input.order {
+input.order[type=email],
+input.order[type=text],
+input.order[type=number],
+input.order[type=tel],
+input.order[type=password] { 
+    height:2.5em;
     width:29em;
+    float:right;
+    clear:right;
+}
+
+.orderradio {
+    padding-left:3em;
+    padding-right:3em;
+    float:right;
+    height:2em
 }
 
 #order {
@@ -76,13 +88,21 @@ input[type=submit] {
     font-weight:bold;
 }
 
+#ordersubmit {
+    height:2.5em;
+    float:right;
+}
+
+input.order[type=radio] {
+    
+}
+
 input::-webkit-input-placeholder {
     color:black;
 }
 
-input.order {
-    float:right;
-    clear:right;
+#orderqty {
+    margin-right:0px;
 }
 
 form.login {
