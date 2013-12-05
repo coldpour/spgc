@@ -18,7 +18,7 @@ function sendEmail() {
 	       "\nPhone: ".$_REQUEST['phone'].
 	       "\nQty: ".$_REQUEST['qty'].
 	       "\nPreference: ".$_REQUEST['ship'];
-    mail("mholm815@gmail.com", $subject, $message, "From:" . $email);
+    mail("saintpaulgardenclub@gmail.com", $subject, $message, "From:" . $email);
 }
 
 function displayInfo() {
